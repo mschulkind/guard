@@ -3,4 +3,5 @@
 require 'guard'
 require 'guard/cli'
 
+$stdout.sync = true
 Guard::CLI.start
